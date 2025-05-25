@@ -19,7 +19,7 @@ export default function Home() {
     setLoading(true);
     setAnswer("");
     try {
-      const res = await fetch("http://localhost:8000/ask", {
+      const res = await fetch("https://alberta11.onrender.com/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
